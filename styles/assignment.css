@@ -49,62 +49,103 @@ header {
 }
 
 /* featured flower section start */
-.featured-container {
-    display: flex;
-    gap: 25px;
-    align-items: center;
-
-}
-
 .featured-flower-title {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-
 }
 
 .featured-flower-description {
     color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+}
+
+#featured-description {
     text-align: center;
-    font-size: 18px;
-    font-weight: 400;
+    width: 590px;
+    margin: 0 auto;
 }
 
-.first-flower {
-    width: 450px;
-    height: 530px;
-    background: rgba(167, 33, 98, 0.15)
+.perfact {
+    align-items: center;
 }
 
-.second-flower {
-    width: 464px;
-    height: 538px;
+.our-featured-flowers {
+    justify-content: center;
+    margin-top: 100px;
+    display: flex;
+    gap: 25px;
+}
+
+.first-featured-flowers {
+    width: 310px;
+    height: 430px;
+    padding: 50px 15px 0px 10px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.second-featured-flowers {
+    width: 310px;
+    height: 430px;
+    padding: 50px 15px 0px 10px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-
 }
 
-.third-flower {
-    width: 464px;
-    height: 538px;
-    border-radius: 50% 50% 0px 0px;
+.third-featured-flowers {
+    width: 310px;
+    height: 430px;
+    padding: 50px 15px 0px 10px;
+    border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
 
-ul>li {
-    display: inline;
-    align-items: center;
+.flowers-sizes {
+    width: 75%;
+    height: 100%;
+}
 
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    margin-right: 125px;
 }
 
 li>a {
     color: #272727;
     font-size: 24px;
     font-weight: 700;
-    margin-right: 85px;
+    text-decoration-line: underline;
+}
+
+/* Hot deal section started */
+.hot-sale {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
 
 }
-.link-item{
-    text-align: center;
+
+span {
+    color: #E55473;
+}
+
+.section-hot-deals {
+    width: 85%;
+    height: 900;
+    padding: 40px 30px 20px 150px;
+    background:white;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    
+}
+#signup{
+    align-items: center;
 }
