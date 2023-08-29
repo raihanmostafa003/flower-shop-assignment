@@ -140,12 +140,52 @@ span {
     width: 85%;
     height: 900;
     padding: 40px 30px 20px 150px;
-    background:white;
+    background: white;
     display: flex;
     justify-content: space-between;
     gap: 50px;
-    
+
 }
-#signup{
+
+/* flowers row started */
+
+.flowers-row {
+    justify-content: center;
+    display: flex;
     align-items: center;
+    gap: 18px;
+    box-shadow: antiquewhite;
+}
+.favourite {
+    width: 350px;
+    height: 350px;
+}
+/* latest deals */
+.deals-title{
+
+}
+.deals-container{
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    width: 1250px;
+    height: 449px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 80px;
+
+}
+.coupon{
+    color: rgba(39, 39, 39, 0.60);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.email-deals{
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    width: 700px;
+    height: 64px;
+
 }
